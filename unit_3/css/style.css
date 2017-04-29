@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,7 +9,6 @@
 body {
 	background-color: #fefbd8;
 	color: #3e958f;
-	font-family: Oswald, Arial, sans-serif;
 }
 section {
 	padding:5em 0;
@@ -31,6 +32,14 @@ nav{
 #intro {
 	text-align: center;
 	padding: 0;
+}
+
+h1,h2,h3,h4
+{
+	font-family: Baloo Thambi, cursive;
+}
+p, li{
+	font: Montserrat, oswald, arial, sans-serif;
 }
 
 #menu{
