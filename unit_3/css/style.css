@@ -32,7 +32,7 @@ p, address {
  }
 
 h1 {
-	font-size: 34px;
+	font-size: 36px;
 	font-style:italic;
 }
 
@@ -50,10 +50,9 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(241, 75, 17);
-}
+	font-size: 28px;
+	font-family: Baloo Thambi, cursive;
 
-address{
-	padding-top: .25em;
 }
 
 nav {
@@ -67,6 +66,10 @@ li {
 
 ul {
 	list-style-type: none;
+}
+
+footer {
+	padding-left: 5em;
 }
 
 #menu, #hours{
