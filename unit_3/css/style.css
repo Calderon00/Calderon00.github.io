@@ -1,60 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
-;
+
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
 }
+
 body {
 	background-color: #fefbd8;
 	color: #3e958f;
 }
 section {
-	padding:5em;
-}
-h1 {
-	font-size: 32px;
-	font-style:italic;
-}
-h2 {
-	font-size: 28px;
-}
-h3{
-	font-size: 24px;
-}
-a{
-	text-decoration: none;
-	font-weight: bold;
-	color: rgb(241, 75, 17);
-	padding-bottom: 20px;
+	padding-left:5em;
+	padding-bottom:2em;
 }
 
-nav{
-	font-size: 24px;
-	text-align: center;
-}
-
-#intro {
-	text-align: center;
-	padding: 0;
-}
-
-h1,h2,h3,h4
-{
+h1,h2,h3,h4 {
 	font-family: Baloo Thambi, cursive;
 }
-p, li, address{
+
+p, li, address {
 	font-family: Questrial, arial, sans-serif;
 }
- p, address{
+
+p, address {
  	width: 30em;
  	font-size: 1.5em;
  	line-height: 1.25em;
  }
 
- li {
+h1 {
+	font-size: 34px;
+	font-style:italic;
+}
+
+h2 {
+	font-size: 28px;
+	padding-bottom: .5em;
+}
+
+h3 {
+	font-size: 24px;
+	padding-bottom:.25em;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(241, 75, 17);
+}
+
+address{
+	padding-top: .25em;
+}
+
+nav {
+	font-size: 24px;
+	text-align: center;
+}
+
+li {
  	font-size: 1.25em;
  }
 
@@ -68,15 +75,13 @@ ul {
 	color: #fefbd8;
 	margin: 0
 	text-align: center;
-	padding: 30px;
 	line-height: 2em;
 	font-size: 18px;
 }
 
-#team{
-	padding: 30px;
-}
 
-#history{
-	align: center;
+
+#intro {
+	text-align: center;
+	padding: 0;
 }
