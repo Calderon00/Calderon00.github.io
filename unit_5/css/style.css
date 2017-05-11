@@ -52,6 +52,9 @@ h3 {
 
 nav{
 	text-align: center;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 nav a {
@@ -90,14 +93,27 @@ ul {
 
 footer {
 	padding-left: 5em;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 header {
-
+ background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 main {
-	
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 #menu, #hours{
