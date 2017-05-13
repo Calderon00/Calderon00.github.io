@@ -14,7 +14,6 @@ body {
 	color: #3e958f;
 }
 section {
-	padding-left:5em;
 	padding-bottom:2em;
 }
 
@@ -43,6 +42,8 @@ h1 {
 h2 {
 	font-size: 28px;
 	padding-bottom: .5em;
+	padding-top: .5em;
+	text-align: center;
 }
 
 h3 {
@@ -88,23 +89,42 @@ ul {
 	list-style-type: none;
 }
 
-footer {
-	padding-left: 5em;
-}
 
-
-
-#menu, #hours{
+#menu {
 	background: teal;
 	opacity: .8;
 	color: #fefbd8;
-	margin: 0
+	margin: 0;
+	float: left;
+	width: 680px;
 	text-align: center;
-	line-height: 2em;
 	font-size: 18px;
-	margin: 0 auto;
+	line-height: 2em;
+	padding-bottom: 72px;
 }
 
+
+#hours{
+	background: teal;
+	opacity: .8;
+	color: #fefbd8;
+	margin: 0;
+	float: left;
+	width: 680px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 2em;
+}
+
+address {
+	background: teal;
+	opacity: .8;
+	color: #fefbd8;
+	clear: both;
+	width: auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
 
 #intro {
 	text-align: center;
@@ -113,5 +133,11 @@ footer {
 
 #team img{
 	border-radius: 180px;
+	float: left;
+	width: auto;
+	padding: 20px;
 }
 
+#history {
+	clear: both;
+}
