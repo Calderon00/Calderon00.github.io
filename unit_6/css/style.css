@@ -90,14 +90,18 @@ ul {
 	list-style-type: none;
 }
 
+#menu, #hours {
+	background-color: teal;
+}
 
 #menu {
+
+	float: left;
 	background: teal;
 	opacity: .8;
 	color: #fefbd8;
 	margin: 0;
-	float: left;
-	width: 680px;
+	width: 50%;
 	text-align: center;
 	font-size: 18px;
 	line-height: 2em;
@@ -106,12 +110,13 @@ ul {
 
 
 #hours{
+
+	float: right;
 	background: teal;
 	opacity: .8;
 	color: #fefbd8;
 	margin: 0;
-	float: left;
-	width: 680px;
+	width: 50%;
 	text-align: center;
 	font-size: 18px;
 	line-height: 2em;
@@ -125,6 +130,7 @@ address {
 	clear: both;
 	width: auto;
 	text-align: center;
+	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
