@@ -62,7 +62,8 @@ nav a {
 	font-size: 28px;
 	font-family: Baloo Thambi, cursive;
 	background: none;
-	padding: 5px 30px;
+	padding: 5px 10px;
+	margin: 0px 30px;
 	
 }
 
@@ -136,6 +137,7 @@ address {
 	float: left;
 	width: auto;
 	padding: 20px;
+	display: inline-block;
 }
 
 #history {
