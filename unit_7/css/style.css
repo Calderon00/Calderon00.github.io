@@ -17,6 +17,11 @@ section {
 	padding-bottom:2em;
 }
 
+footer {
+	margin: 0 auto;
+	width: 50%;
+}
+
 h2,h3,h4 {
 	font-family: Baloo Thambi, cursive;
 }
@@ -29,6 +34,7 @@ p, address {
  	width: 30em;
  	font-size: 1.5em;
  	line-height: 1.25em;
+ 	padding-bottom: 1.25em;
  }
 
 h1 {
@@ -145,6 +151,8 @@ address {
 
 #history {
 	clear: both;
+	margin: 0 auto;
+	width: 50%;
 }
 
 .staff-container {
@@ -152,4 +160,12 @@ address {
 	padding: 20px;
 	width: 25%;
 	display: inline-block;
+}
+
+.staff-container h3 {
+	text-align: center;
+}
+.staff-container img {
+	margin: 0 auto;
+	display: block;
 }
