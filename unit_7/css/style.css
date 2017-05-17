@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color: #fefbd8;
+	color: #3e958f;
+}
+section {
+	padding-bottom:2em;
+}
+
+h2,h3,h4 {
+	font-family: Baloo Thambi, cursive;
+}
+
+p, li, address {
+	font-family: Questrial, arial, sans-serif;
+}
+
+p, address {
+ 	width: 30em;
+ 	font-size: 1.5em;
+ 	line-height: 1.25em;
+ }
+
+h1 {
+	font-family: Sriracha;
+	font-size: 36px;
+	font-style:none;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+h2 {
+	font-size: 28px;
+	padding-bottom: .5em;
+	padding-top: .5em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 24px;
+	padding-bottom:.25em !important;
+}
+
+nav{
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(241, 75, 17);
+	font-size: 28px;
+	font-family: Baloo Thambi, cursive;
+	background: none;
+	padding: 5px 10px;
+	margin: 0px 30px;
+	
+}
+
+a {
+	text-decoration: none !important;
+	font-size: 28px;
+	font-family: Baloo, Thambi, cursive;
+	color: #fefbd8;
+	text-align: center;
+	background: rgb(241, 75, 17);
+	padding: 5px 15px;
+}
+
+footer a {
+	color: rgb(241, 75, 17);
+	background: none;
+}
+
+li {
+ 	font-size: 1.25em;
+ }
+
+ul {
+	list-style-type: none;
+}
+
+#menu, #hours {
+	background-color: teal;
+}
+
+#menu {
+
+	float: left;
+	background: teal;
+	opacity: .8;
+	color: #fefbd8;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 2em;
+	padding-bottom: 72px;
+}
+
+
+#hours{
+
+	float: right;
+	background: teal;
+	opacity: .8;
+	color: #fefbd8;
+	margin: 0;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 2em;
+	background-color: teal;
+}
+
+address {
+	background: teal;
+	opacity: .8;
+	color: #fefbd8;
+	clear: both;
+	width: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#intro {
+	text-align: center;
+	padding: 0;
+}
+
+#team img{
+	border-radius: 180px;
+}
+
+#history {
+	clear: both;
+}
+
+.staff-container {
+	float: left;
+	padding: 20px;
+	width: 25%;
+	display: inline-block;
+}
