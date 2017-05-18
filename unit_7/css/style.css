@@ -88,6 +88,7 @@ footer a {
 	background: none;
 }
 
+
 li {
  	font-size: 1.25em;
  }
@@ -168,4 +169,17 @@ address {
 .staff-container img {
 	margin: 0 auto;
 	display: block;
+}
+
+.clearfix: after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	padding-top: -30px;
 }

@@ -17,6 +17,11 @@ section {
 	padding-bottom:2em;
 }
 
+footer {
+	margin: 0 auto;
+	width: 50%;
+}
+
 h2,h3,h4 {
 	font-family: Baloo Thambi, cursive;
 }
@@ -29,6 +34,7 @@ p, address {
  	width: 30em;
  	font-size: 1.5em;
  	line-height: 1.25em;
+ 	padding-bottom: 1.25em;
  }
 
 h1 {
@@ -81,6 +87,7 @@ footer a {
 	color: rgb(241, 75, 17);
 	background: none;
 }
+
 
 li {
  	font-size: 1.25em;
@@ -141,12 +148,38 @@ address {
 
 #team img{
 	border-radius: 180px;
-	float: left;
-	width: auto;
-	padding: 20px;
-	display: inline-block;
 }
 
 #history {
 	clear: both;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.staff-container {
+	float: left;
+	padding: 20px;
+	width: 25%;
+	display: inline-block;
+}
+
+.staff-container h3 {
+	text-align: center;
+}
+.staff-container img {
+	margin: 0 auto;
+	display: block;
+}
+
+.clearfix: after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	padding-top: -30px;
 }
