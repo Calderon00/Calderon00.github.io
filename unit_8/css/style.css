@@ -188,3 +188,32 @@ footer a {
 	font-size: 1.3em;
 }
 
+@media screen only and (max-width: 980px) {
+
+
+#team img {
+	border-radius: none;
+	width: 20%;
+}
+
+.staff-container {
+	float: left;
+	padding: 20px;
+	width: 25%;
+	display: inline-block;
+}
+
+.staff-container h3 {
+	text-align: center;
+}
+.staff-container img {
+	margin: 0 auto;
+	display: block;
+
+}
+
+#history {
+	display: none;
+}
+
+}
