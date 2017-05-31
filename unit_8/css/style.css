@@ -193,8 +193,8 @@ footer a {
 
 
 #team img {
-	border-radius: none;
-	width: 20%;
+	border-radius: 0px;
+	width: 60%;
 }
 
 .staff-container {
@@ -214,7 +214,7 @@ footer a {
 
 }
 
-#history {
+#history, footer {
 	display: none;
 }
 
