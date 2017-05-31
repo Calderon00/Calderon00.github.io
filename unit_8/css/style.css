@@ -211,6 +211,7 @@ footer a {
 .staff-container img {
 	margin: 0 auto;
 	display: block;
+	border-radius: 0px;
 
 }
 
