@@ -188,7 +188,7 @@ footer a {
 	font-size: 1.3em;
 }
 
-@media screen only and (max-width: 980px) {
+@media screen only and (min-width: 980px) {
 
 
 #team img {
