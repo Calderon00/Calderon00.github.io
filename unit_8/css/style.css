@@ -188,7 +188,8 @@ footer a {
 	font-size: 1.3em;
 }
 
-@media screen only and (min-width: 980px) {
+
+@media only screen and (max-width: 980px) {
 
 
 #team img {
@@ -206,6 +207,7 @@ footer a {
 .staff-container h3 {
 	text-align: center;
 }
+
 .staff-container img {
 	margin: 0 auto;
 	display: block;
