@@ -155,7 +155,7 @@ address {
 #history {
 	clear: both;
 	margin: 0 auto;
-	width: 100%;
+
 }
 
 .staff-container {
@@ -183,5 +183,6 @@ address {
 }
 
 footer {
-	padding-top: -30px;
+	padding-top: -30px
+	display: block;
 }
