@@ -12,6 +12,7 @@
 body {
 	background-color: #fefbd8;
 	color: #3e958f;
+	font-size: 16px;
 }
 section {
 	padding-bottom:2em;
@@ -31,7 +32,7 @@ p, li, address {
 }
 
 p, address {
- 	width: 30em;
+ 	width: 50%;
  	font-size: 1.5em;
  	line-height: 1.25em;
  	padding-bottom: 1.25em;
@@ -39,21 +40,21 @@ p, address {
 
 h1 {
 	font-family: Sriracha;
-	font-size: 36px;
+	font-size: 2.2em;
 	font-style:none;
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
 h2 {
-	font-size: 28px;
+	font-size: 1.5em;
 	padding-bottom: .5em;
 	padding-top: .5em;
 	text-align: center;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 1.25em;
 	padding-bottom:.25em !important;
 }
 
@@ -65,7 +66,7 @@ nav a {
 	text-decoration: none;
 	font-weight: bold;
 	color: rgb(241, 75, 17);
-	font-size: 28px;
+	font-size: 1.5em;
 	font-family: Baloo Thambi, cursive;
 	background: none;
 	padding: 5px 10px;
@@ -75,7 +76,7 @@ nav a {
 
 a {
 	text-decoration: none !important;
-	font-size: 28px;
+	font-size: 1.5em;
 	font-family: Baloo, Thambi, cursive;
 	color: #fefbd8;
 	text-align: center;
@@ -110,7 +111,7 @@ ul {
 	margin: 0;
 	width: 50%;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.13em;
 	line-height: 2em;
 	padding-bottom: 72px;
 }
@@ -125,7 +126,7 @@ ul {
 	margin: 0;
 	width: 50%;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.13em;
 	line-height: 2em;
 	background-color: teal;
 }
