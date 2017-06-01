@@ -194,7 +194,7 @@ footer a {
 
 #team img {
 	border-radius: 0px;
-	width: 60%;
+	width: 90%;
 }
 
 .staff-container {
@@ -217,6 +217,73 @@ footer a {
 
 #history, footer {
 	display: none;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+nav a{
+	text-align: center;
+	float: none;
+	padding: 1% 0 1% 0;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#intro img{
+width: 60%;
+padding-top: 5%;
+height: auto;
+}
+
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+nav a{
+	display: block;
+	text-align: center;
+	float: none;
+	padding-bottom: 0;
+}
+
+#menu {
+	float: none;
+	text-align: center;
+	width: 100%;
+	padding-bottom: -50px;
+}
+
+#hours {
+	float: none;
+	text-align: center;
+	width: 100%;
+	padding-top: -50px;
+}
+
+#team {
+	display: none;
+}
+
+address {
+font-size: 1.2em;
+padding-left: 10px;
+padding-right: 10px;
+display: block;
+text-align: center;
+}
+
+#logo {
+	display: none;
+}
 }
 
 }
