@@ -149,6 +149,7 @@ address {
 	clear: both;
 	margin: 0 auto;
 	width: 60%;
+	padding-bottom: 10px;
 
 }
 
@@ -177,8 +178,9 @@ address {
 }
 
 footer {
-	padding-top: -50px
-	text-align: left;
+	margin: 0 auto;
+  	width: 60%;
+  	text-align: left;
 }
 
 
@@ -186,6 +188,7 @@ footer a {
 	color: rgb(241, 75, 17);
 	background: none;
 	font-size: 1.3em;
+	padding: 0;
 }
 
 
@@ -194,14 +197,13 @@ footer a {
 
 #team img {
 	border-radius: 0px;
-	width: 90%;
+	width: 100%;
 }
 
 .staff-container {
 	float: left;
-	padding: 20px;
-	width: 25%;
-	display: inline-block;
+	width: 50%;
+	display: block;
 }
 
 .staff-container h3 {
@@ -273,8 +275,11 @@ nav a{
 	padding-top: -50px;
 }
 
-#team {
-	display: none;
+.staff-container {
+	float: none;
+	width: 80%;
+	padding: 5%;
+	display: block;
 }
 
 address {
