@@ -291,6 +291,10 @@ display: block;
 text-align: center;
 }
 
+h3 {
+	font-size: 1.2em;
+}
+
 #logo {
 	display: none;
 }
