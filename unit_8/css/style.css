@@ -277,9 +277,10 @@ nav a{
 
 .staff-container {
 	float: none;
-	width: 80%;
+	width: 90%;
 	padding: 5%;
 	display: block;
+	text-align: center;
 }
 
 address {
