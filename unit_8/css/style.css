@@ -141,6 +141,10 @@ address {
 	padding: 0;
 }
 
+#team {
+	clear: both;
+}
+
 #team img{
 	border-radius: 180px;
 }
