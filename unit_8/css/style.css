@@ -76,7 +76,7 @@ nav a {
 a {
 	text-decoration: none !important;
 	font-size: 1.5em;
-	font-family: Baloo, Thambi, cursive;
+	font-family: Baloo Thambi, cursive;
 	color: #fefbd8;
 	text-align: center;
 	background: rgb(241, 75, 17);
@@ -92,8 +92,10 @@ ul {
 	list-style-type: none;
 }
 
-#menu, #hours {
+
+#two_column {
 	background-color: teal;
+	padding-top: 2em;
 }
 
 #menu {
@@ -107,7 +109,6 @@ ul {
 	text-align: center;
 	font-size: 1.13em;
 	line-height: 2em;
-	padding-bottom: 72px;
 }
 
 
@@ -138,11 +139,12 @@ address {
 
 #intro {
 	text-align: center;
-	padding: 0;
+	padding-bottom: 2em;
 }
 
 #team {
 	clear: both;
+	padding-top: 1em;
 }
 
 #team img{
@@ -181,9 +183,6 @@ address {
     height: 0;
 }
 
-#two_column {
-	background-color: teal;
-}
 
 footer {
 	margin: 0 auto;
@@ -273,14 +272,12 @@ nav a{
 	float: none;
 	text-align: center;
 	width: 100%;
-	padding-bottom: -50px;
 }
 
 #hours {
 	float: none;
 	text-align: center;
 	width: 100%;
-	padding-top: -50px;
 }
 
 .staff-container {
