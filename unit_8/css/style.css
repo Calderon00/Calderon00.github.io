@@ -177,6 +177,10 @@ address {
     height: 0;
 }
 
+#two_column {
+	background-color: teal;
+}
+
 footer {
 	margin: 0 auto;
   	width: 60%;
@@ -192,7 +196,7 @@ footer a {
 }
 
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 1000px) {
 
 
 #team img {
@@ -277,8 +281,9 @@ nav a{
 
 .staff-container {
 	float: none;
-	width: 90%;
+	width: 100%;
 	padding: 5%;
+	margin: auto;
 	display: block;
 	text-align: center;
 }
